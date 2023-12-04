@@ -17,6 +17,7 @@ export interface mainProject {
   live: string
   code: string
   stack: string
+  admin?: string
 }
 export interface otherProject {
   title: string

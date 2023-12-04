@@ -1,4 +1,5 @@
 import { BiLink } from 'react-icons/bi'
+import { MdOutlineAdminPanelSettings } from "react-icons/md";
 import { motion } from 'framer-motion'
 import { FiGithub } from 'react-icons/fi'
 import { project } from '../types'
@@ -90,6 +91,13 @@ const ProjectSection = ({ index,data }: project) => {
               <FiGithub />
               Code
             </a>
+            {
+              data?.admin &&
+              <a href={data.admin} target='_blank' className="grid-btn gradient-border">
+                <MdOutlineAdminPanelSettings size={17}/>
+                Admin
+            </a>
+            }
           </div>
         </div>
       </motion.div>
