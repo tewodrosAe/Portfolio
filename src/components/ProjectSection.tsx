@@ -2,6 +2,7 @@ import { BiLink } from 'react-icons/bi'
 import { MdOutlineAdminPanelSettings } from "react-icons/md";
 import { motion } from 'framer-motion'
 import { FiGithub } from 'react-icons/fi'
+import {MdOutlineAdminPanelSettings } from 'react-icons/md'
 import { project } from '../types'
 import TechStack from './TechStack'
 
@@ -94,9 +95,15 @@ const ProjectSection = ({ index,data }: project) => {
             {
               data?.admin &&
               <a href={data.admin} target='_blank' className="grid-btn gradient-border">
+<<<<<<< Updated upstream
                 <MdOutlineAdminPanelSettings size={17}/>
                 Admin
             </a>
+=======
+                <MdOutlineAdminPanelSettings size={17} />
+                Admin
+              </a>
+>>>>>>> Stashed changes
             }
           </div>
         </div>
