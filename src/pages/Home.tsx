@@ -34,7 +34,7 @@ const Home = () => {
   }
   return (
     <div 
-    id="home" className="flex pt-24 flex-wrap items-center w-full h-screen md:mt-0 md:pt-5 text-texts pl-10 md:pl-20 lg:pl-36 font-primary ">
+    id="home" className="flex pt-32 sm:pt-0 flex-wrap sm:items-center w-full h-screen md:mt-0 md:pt-5 text-texts pl-10 md:pl-20 lg:pl-36 font-primary ">
       <motion.div 
         variants={homeVariants}
         initial='hidden'

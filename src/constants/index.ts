@@ -17,11 +17,7 @@ export const mainProjects: mainProject[] = [
         experience: ['Implemented Google OAuth and user authentication through MongoDb','Deployed an admin page directly connected to the mongoDB backend to update , delete and manipulate the data'],
         code:'https://github.com/tewodrosAe/Shopping_App',
         live: 'https://tech-stop.vercel.app/',
-<<<<<<< Updated upstream
-        admin: 'https://techstop-admin.vercel.app/',
-=======
         admin:'https://techstop-admin.vercel.app',
->>>>>>> Stashed changes
         stack: 'mern'
     },
     {

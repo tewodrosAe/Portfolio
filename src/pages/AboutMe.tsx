@@ -32,7 +32,7 @@ const AboutMe = () => {
           <div className="w-full h-px bg-secondary" />
         </div>
         <div className="mt-12">
-          <p className="text-secondary text-paragraphTwo">
+          <p className="text-secondary md:text-paragraphTwo text-[0.875rem]">
             Hello there I'm Tewodros, and my journey into the world of web
             development and programming started a few years ago when I
             encountered a challenge during my blender animation work. This led
@@ -61,10 +61,10 @@ const AboutMe = () => {
           </p>
         </div>
         <div>
-          <h1 className="text-lg mt-12">
+          <h1 className="text-sm sm:text-base md:text-lg mt-12">
             Technologies i recently worked with include:
           </h1>
-          <ul className="grid grid-cols-2 gap-3 mt-7 text-sm">
+          <ul className="grid grid-cols-2 gap-3 text-[0.8rem] mt-7 sm:text-[0.84rem] md:text-sm">
             {skills.map((skill) => (
               <li className="font-bold" key={skill}>
                 <span className="text-accent">// </span>
