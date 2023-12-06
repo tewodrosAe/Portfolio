@@ -69,7 +69,7 @@ const Nav = ({isOpen, setIsOpen}:{ isOpen: boolean; setIsOpen:  React.Dispatch<R
           delay: 1.6,
         }}
         className="ml-12 md:ml-20 lg:ml-36"
-        src="/Logo.svg"
+        src="Logo.svg"
         alt=""
       />
       <div className="hidden md:flex space-x-14 md:mr-20 lg:mr-36">

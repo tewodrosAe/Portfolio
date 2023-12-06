@@ -42,42 +42,42 @@ export const mainProjects: mainProject[] = [
 export const otherProjects: otherProject[] = [
     {
         title: 'Inpost',
-        image: '/image.png',
+        image: 'image.png',
         code:'https://github.com/tewodrosAe/Image_Sharing_App',
         detail: 'A web app for discovering and organizing inspiring images capable of seamless content management, board creation, and pin saving',
         stack: ['React','NodeJs','Sanity','tailwindcss']
     },
     {
         title: 'CarHub',
-        image: '/car.png',
+        image: 'car.png',
         code:'https://github.com/tewodrosAe/Car_Showcase_App',
         detail: 'A website that gives full specifications and showcase the different models and specific types of cars',
         stack: ['Next']
     },
     {
         title: 'Workout Buddy',
-        image: '/workout.png',
+        image: 'workout.png',
         code:'https://github.com/tewodrosAe/Workout_Tracker',
         detail: 'A web application designed to help users track and manage their fitness routines. ',
         stack: ['MongoDB','Express','React','NodeJs']
     },
     {
         title: 'Twitty',
-        image: '/socialmedia.png',
+        image: 'socialmedia.png',
         code:'https://github.com/tewodrosAe/Social_Media_App',
         detail: 'The Twitter clone is a dynamic web application that replicates the core functionalities of the popular social media platform. ',
         stack: ['MongoDB','Express','React', 'socket.io']
     },
     {
         title: 'TaskRead',
-        image: '/todo.png',
+        image: 'todo.png',
         code:'https://github.com/tewodrosAe/taskTracker',
         detail: 'A web application created to help users Maintain their daily Tasks.',
         stack: ['MongoDB','Express','React','NodeJs']
     },
     {
         title: '*Photo Editing Website*',
-        image: '/comingsoon.png',
+        image: 'comingsoon.png',
         code:'https://github.com/tewodrosAe/Image_Editing_App',
         detail: 'A web application used to make filters for images/photos that the user provides',
         stack: ['Next']
